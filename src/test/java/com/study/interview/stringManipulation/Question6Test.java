@@ -1,5 +1,6 @@
-package com.study.interview;
+package com.study.interview.stringManipulation;
 
+import com.study.interview.stringManipulation.Question6;
 import org.hamcrest.collection.IsMapContaining;
 import org.junit.Before;
 import org.junit.Test;
