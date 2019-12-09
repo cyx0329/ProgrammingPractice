@@ -1,13 +1,14 @@
-package com.study.interview
+package com.study.interview.stringManipulation
 
+import com.study.interview.stringManipulation.Question2
 import spock.lang.Specification
 
 class Question2Test extends Specification {
 
-    Question2 q;
+    Question2 q
 
     void setup(){
-        q = new Question2();
+        q = new Question2()
     }
 
     def "AreAnagrams"() {
