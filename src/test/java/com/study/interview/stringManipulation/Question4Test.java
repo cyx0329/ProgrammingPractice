@@ -1,6 +1,5 @@
 package com.study.interview.stringManipulation;
 
-import com.study.interview.stringManipulation.Question4;
 import org.junit.Before;
 import org.junit.Test;
 
