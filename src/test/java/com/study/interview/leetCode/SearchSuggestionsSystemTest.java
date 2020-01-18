@@ -1,4 +1,4 @@
-package com.study.interview.LeetCode;
+package com.study.interview.leetCode;
 
 import junit.framework.TestCase;
 import org.junit.Before;
