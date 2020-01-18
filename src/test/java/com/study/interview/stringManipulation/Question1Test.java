@@ -1,6 +1,5 @@
 package com.study.interview.stringManipulation;
 
-import com.study.interview.stringManipulation.Question1;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -8,7 +7,7 @@ import java.util.Map;
 
 import static org.junit.Assert.*;
 
-public class Question1Test {
+public class  Question1Test {
 
     Question1 q;
 
