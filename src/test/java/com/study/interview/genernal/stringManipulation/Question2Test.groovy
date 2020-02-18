@@ -1,6 +1,5 @@
 package com.study.interview.genernal.stringManipulation
 
-import com.study.interview.genernal.stringManipulation.stringManipulation.Question2
 import spock.lang.Specification
 
 class Question2Test extends Specification {

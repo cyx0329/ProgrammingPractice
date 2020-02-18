@@ -1,6 +1,5 @@
 package com.study.interview.genernal;
 
-import com.study.interview.genernal.NumberUtil;
 import org.junit.Before;
 import org.junit.Test;
 
