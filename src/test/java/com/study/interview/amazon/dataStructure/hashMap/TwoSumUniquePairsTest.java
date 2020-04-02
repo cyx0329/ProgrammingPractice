@@ -1,6 +1,5 @@
 package com.study.interview.amazon.dataStructure.hashMap;
 
-import com.study.interview.amazon.dataStructure.hashMap.TwoSumUniquePairs;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -17,7 +16,7 @@ public class TwoSumUniquePairsTest {
 
     @Test
     public void findUniquePairsSum1() {
-        int[] nums = new int[]{1, 1, 2, 45, 46 ,46};
+        int[] nums = new int[]{1, 1, 2, 45, 46, 46};
         int target = 47;
         int actual = twoSumUniquePairs.findUniquePairsSum(nums, target);
         assertEquals(2, actual);

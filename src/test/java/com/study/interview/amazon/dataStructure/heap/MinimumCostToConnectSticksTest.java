@@ -1,6 +1,5 @@
 package com.study.interview.amazon.dataStructure.heap;
 
-import com.study.interview.amazon.dataStructure.heap.MinimumCostToConnectSticks;
 import org.junit.Before;
 import org.junit.Test;
 

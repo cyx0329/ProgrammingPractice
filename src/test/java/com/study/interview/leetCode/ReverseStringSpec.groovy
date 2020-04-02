@@ -1,6 +1,5 @@
 package com.study.interview.leetCode
 
-import com.study.interview.leetCode.ReverseString
 import spock.lang.Specification
 
 class ReverseStringSpec extends Specification {

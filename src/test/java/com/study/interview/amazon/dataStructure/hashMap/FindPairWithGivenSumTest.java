@@ -1,6 +1,5 @@
 package com.study.interview.amazon.dataStructure.hashMap;
 
-import com.study.interview.amazon.dataStructure.hashMap.FindPairWithGivenSum;
 import org.junit.Before;
 import org.junit.Test;
 

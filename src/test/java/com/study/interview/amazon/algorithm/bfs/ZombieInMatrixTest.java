@@ -1,6 +1,5 @@
 package com.study.interview.amazon.algorithm.bfs;
 
-import com.study.interview.amazon.algorithm.bfs.ZombieInMatrix;
 import org.junit.Before;
 import org.junit.Test;
 

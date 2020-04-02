@@ -1,6 +1,5 @@
 package com.study.interview.amazon.dataStructure.array;
 
-
 import org.junit.Before;
 import org.junit.Test;
 

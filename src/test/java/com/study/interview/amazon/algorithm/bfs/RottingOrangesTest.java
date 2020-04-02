@@ -1,6 +1,5 @@
 package com.study.interview.amazon.algorithm.bfs;
 
-import com.study.interview.amazon.algorithm.bfs.RottingOranges;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -31,7 +30,7 @@ public class RottingOrangesTest {
 
     @Test
     public void orangesRottingTest3() {
-        int[][] grid = new int[][]{{0,2}};
+        int[][] grid = new int[][]{{0, 2}};
         int actual = rottingOranges.orangesRotting(grid);
         assertEquals(0, actual);
     }

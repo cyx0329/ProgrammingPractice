@@ -1,6 +1,5 @@
 package com.study.interview.amazon.dataStructure.hashMap;
 
-import com.study.interview.amazon.dataStructure.hashMap.FavoriteGenres;
 import org.junit.Before;
 import org.junit.Test;
 

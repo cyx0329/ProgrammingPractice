@@ -1,6 +1,5 @@
 package com.study.interview.leetCode;
 
-import com.study.interview.leetCode.ValidPalindrome;
 import org.junit.Before;
 import org.junit.Test;
 
