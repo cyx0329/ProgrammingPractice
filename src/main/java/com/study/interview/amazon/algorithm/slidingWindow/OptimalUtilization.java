@@ -1,4 +1,4 @@
-package com.study.interview.amazon.algorithm.twoPointers;
+package com.study.interview.amazon.algorithm.slidingWindow;
 
 /*
     Given 2 lists a and b. Each element is a pair of integers where the first integer represents the unique id and

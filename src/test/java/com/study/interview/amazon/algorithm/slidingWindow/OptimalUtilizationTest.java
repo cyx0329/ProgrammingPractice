@@ -1,5 +1,6 @@
-package com.study.interview.amazon.algorithm.twoPointers;
+package com.study.interview.amazon.algorithm.slidingWindow;
 
+import com.study.interview.amazon.algorithm.slidingWindow.OptimalUtilization;
 import org.junit.Before;
 import org.junit.Test;
 

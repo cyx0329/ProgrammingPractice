@@ -1,4 +1,4 @@
-package com.study.interview.leetCode;
+package com.study.interview.amazon.algorithm.sorting;
 
 import junit.framework.TestCase;
 import org.junit.Before;

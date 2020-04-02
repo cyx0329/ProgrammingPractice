@@ -3,11 +3,243 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/AddTwoNumbers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/AddTwoNumbers.java" />
+              <option name="questionId" value="2" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/BestTimeToBuyAndSellStock.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/BestTimeToBuyAndSellStock.java" />
+              <option name="questionId" value="121" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/CombinationSum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/CombinationSum.java" />
+              <option name="questionId" value="39" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/CombinationSumIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/CombinationSumIi.java" />
+              <option name="questionId" value="40" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/ContainerWithMostWater.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/ContainerWithMostWater.java" />
+              <option name="questionId" value="11" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/CopyListWithRandomPointer.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/CopyListWithRandomPointer.java" />
+              <option name="questionId" value="138" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/FirstUniqueCharacterInAString.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/FirstUniqueCharacterInAString.java" />
+              <option name="questionId" value="387" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/GroupAnagrams.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/GroupAnagrams.java" />
+              <option name="questionId" value="49" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/HappyNumber.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/HappyNumber.java" />
+              <option name="questionId" value="202" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/IntegerToEnglishWords.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/IntegerToEnglishWords.java" />
+              <option name="questionId" value="273" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/IntegerToRoman.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/IntegerToRoman.java" />
+              <option name="questionId" value="12" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/KClosestPointsToOrigin.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/KClosestPointsToOrigin.java" />
+              <option name="questionId" value="1014" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/LfuCache.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/LfuCache.java" />
+              <option name="questionId" value="460" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/LongestSubstringWithoutRepeatingCharacters.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/LongestSubstringWithoutRepeatingCharacters.java" />
+              <option name="questionId" value="3" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/LruCache.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/LruCache.java" />
+              <option name="questionId" value="146" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/MedianOfTwoSortedArrays.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/MedianOfTwoSortedArrays.java" />
+              <option name="questionId" value="4" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/MeetingRooms.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/MeetingRooms.java" />
+              <option name="questionId" value="252" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/MeetingRoomsIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/MeetingRoomsIi.java" />
+              <option name="questionId" value="253" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/MergeIntervals.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/MergeIntervals.java" />
+              <option name="questionId" value="56" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/Permutations.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/Permutations.java" />
+              <option name="questionId" value="46" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/PermutationsIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/PermutationsIi.java" />
+              <option name="questionId" value="47" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/RomanToInteger.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/RomanToInteger.java" />
+              <option name="questionId" value="13" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/RotateArray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/RotateArray.java" />
+              <option name="questionId" value="189" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/StringToIntegerAtoi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/StringToIntegerAtoi.java" />
+              <option name="questionId" value="8" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/ThreeSum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/ThreeSum.java" />
+              <option name="questionId" value="15" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/ValidParentheses.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/ValidParentheses.java" />
+              <option name="questionId" value="20" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/WordBreak.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/WordBreak.java" />
+              <option name="questionId" value="139" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/WordBreakIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/WordBreakIi.java" />
+              <option name="questionId" value="140" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/[1]Two Sum.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/editor/en/[1]Two Sum.java" />
               <option name="questionId" value="1" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/leetcode/editor/en/WordBreak.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/study/interview/leetCode/leetcode/leetcode/editor/en/WordBreak.java" />
+              <option name="questionId" value="139" />
             </LeetcodeEditor>
           </value>
         </entry>
