@@ -1,4 +1,4 @@
-package com.study.interview.leetCode;
+package com.study.interview.amazon.algorithm.sorting;
 
 /*
     You have an array of logs.  Each log is a space delimited string of words.

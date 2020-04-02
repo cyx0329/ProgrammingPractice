@@ -19,7 +19,7 @@ public class CriticalConnections {
         List<List<Integer>> result = new ArrayList<>();
         LinkedList<Integer> graph[] = new LinkedList[n+1];
 
-        for(int i = 1; i <= n; i++) {
+        for(int i = 1; i <= n; i++) { //node begin with 1
             graph[i] = new LinkedList<>();
         }
 
@@ -30,7 +30,7 @@ public class CriticalConnections {
             graph[endNode].add(startNode);
         }
 
-        int disc[] = new int[n+1];
+        int disc[] = new int[n+1]; // Initialize discovery time and low value
         int low[] = new int[n+1];
         int parent[] = new int[n+1];
 
@@ -54,15 +54,24 @@ public class CriticalConnections {
     }
 
     private void dfs(int u, int disc[], int low[], LinkedList<Integer> graph[], List<List<Integer>> result, int parent[]) {
-        disc[u] = low[u] = ++time;
-        for(int v: graph[u]) {
+        disc[u] = low[u] = ++time; // Initialize discovery time and low value
+        for(int v: graph[u]) { // Go through all vertices in graph
+            // If v is not visited yet, then make it a child
+            // of u in DFS tree and recur for it.
+            // If v is not visited yet, then recur for it
             if(disc[v] == -1) {
                 parent[v] = u;
                 dfs(v, disc, low, graph, result, parent);
+                // Check if the subtree rooted with v has a
+                // connection to one of the ancestors of u
                 low[u] = Math.min(low[u], low[v]);
+                // If the lowest vertex reachable from subtree
+                // under v is below u in DFS tree, then u-v is
+                // a bridge
                 if(low[v] > disc[u]) {
                     result.add(Arrays.asList(u, v));
                 }
+                // Update low value of u for parent function calls.
             } else if(v != parent[u]) {
                 low[u] = Math.min(low[u], disc[v]);
             }

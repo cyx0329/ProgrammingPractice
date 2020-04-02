@@ -1,5 +1,6 @@
 package com.study.interview.amazon.algorithm.bfs;
 
+import com.study.interview.amazon.algorithm.bfs.RottingOranges;
 import org.junit.Before;
 import org.junit.Test;
 

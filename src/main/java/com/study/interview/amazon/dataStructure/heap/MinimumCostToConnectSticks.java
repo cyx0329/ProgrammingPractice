@@ -1,4 +1,4 @@
-package com.study.interview.leetCode;
+package com.study.interview.amazon.dataStructure.heap;
 
 /*
     You have some sticks with positive integer lengths.
@@ -33,3 +33,6 @@ public class MinimumCostToConnectSticks {
         return cost;
     }
 }
+
+//Time complexity: O(nlogn).
+//Space complexity: O(n).

@@ -12,6 +12,9 @@ import java.util.Queue;
 
 public class ZombieInMatrix {
     public int FindHour(List<List<Integer>> grid) {
+        if(grid == null || grid.size() == 0 || grid.get(0).size() == 0) {
+            return 0;
+        }
         int time = 0;
         int human = 0;
         int[][] dirs = new int[][]{{-1, 0}, {0, -1}, {1, 0}, {0, 1}};
@@ -47,6 +50,9 @@ public class ZombieInMatrix {
                 }
             }
             time++;
+        }
+        if(human != 0) {
+            return -1;
         }
         return time;
     }

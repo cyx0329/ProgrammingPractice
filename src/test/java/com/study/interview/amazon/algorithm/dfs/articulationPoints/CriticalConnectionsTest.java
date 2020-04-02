@@ -1,5 +1,6 @@
 package com.study.interview.amazon.algorithm.dfs.articulationPoints;
 
+import com.study.interview.amazon.algorithm.dfs.articulationPoints.CriticalConnections;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.study.interview.leetCode;
+package com.study.interview.amazon.algorithm.sorting;
 
 /*
     Given an array of strings products and a string searchWord. We want to design a system that suggests at most three
