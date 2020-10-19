@@ -1,4 +1,4 @@
-package com.study.interview.amazon.algorithm.dfs.articulationPoints;
+package com.study.interview.amazon.algorithm.dfs;
 
 /*
     Given an underected connected graph with n nodes labeled 1..n. A bridge (cut edge) is defined as an edge which,

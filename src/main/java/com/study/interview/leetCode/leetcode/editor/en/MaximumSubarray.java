@@ -30,6 +30,12 @@ public class MaximumSubarray {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int maxSubArray(int[] nums) {
+            //Pick the locally optimal move at each step, and that will lead to the globally optimal solution.
+            //current element
+            //
+            //current local maximum sum (at this given point)
+            //
+            //global maximum sum seen so far.
             int sum = nums[0], maxSum = nums[0];
             for(int i = 1; i < nums.length; i++) {
                 sum = Math.max(nums[i], sum+nums[i]);

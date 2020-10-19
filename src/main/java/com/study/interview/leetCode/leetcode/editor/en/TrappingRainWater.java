@@ -26,7 +26,8 @@ public class TrappingRainWater {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int trap(int[] height) {
-            //Approach 4: Using 2 pointers
+            //Approach 4: Using 2 pointer
+            /*
             if (height == null || height.length == 0) {
                 return 0;
             }
@@ -51,6 +52,28 @@ public class TrappingRainWater {
                 }
             }
             return ans;
+            */
+            if(height == null || height.length == 0) return 0;
+            int res = 0;
+            int n = height.length;
+            int[] leftMax = new int[n];
+            int[] rightMax = new int[n];
+
+            leftMax[0] = height[0];
+            for(int i = 1; i < n; i++) {
+                leftMax[i] = Math.max(height[i], leftMax[i-1]);
+            }
+
+            rightMax[n-1] = height[n-1];
+            for(int i = n-2; i >= 0; i--) {
+                rightMax[i] = Math.max(height[i], rightMax[i+1]);
+            }
+
+            for(int i = 0; i < n; i++) {
+                res += Math.min(leftMax[i], rightMax[i]) - height[i];
+            }
+            return res;
+
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

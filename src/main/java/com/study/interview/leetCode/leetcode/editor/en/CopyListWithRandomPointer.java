@@ -61,6 +61,17 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CopyListWithRandomPointer {
+    class Node {
+        int val;
+        Node next;
+        Node random;
+
+        public Node(int val) {
+            this.val = val;
+            this.next = null;
+            this.random = null;
+        }
+    }
     public static void main(String[] args) {
         Solution solution = new CopyListWithRandomPointer().new Solution();
     }
@@ -81,38 +92,56 @@ class Node {
 */
 
     class Solution {
-        class Node {
-            int val;
-            Node next;
-            Node random;
-
-            public Node(int val) {
-                this.val = val;
-                this.next = null;
-                this.random = null;
+        public Node copyRandomList(Node head) {
+            if (head == null) return null;
+            Map<Node, Node> map = new HashMap<>();
+            Node node = head;
+            while (node != null) {
+                map.put(node, new Node(node.val));
+                node = node.next;
             }
+            node = head;
+            while(node != null) {
+                map.get(node).next = map.get(node.next);
+                map.get(node).random = map.get(node.random);
+                node = node.next;
+            }
+            return map.get(head);
         }
 
+        /*
         public Node copyRandomList(Node head) {
-            if (head == null) {
-                return null;
+            if (head == null) return null;
+            Node node = head;
+            while(node != null) {
+                Node next = node.next;
+                node.next = new Node(node.val);
+                node.next.next = next;
+                node = next;
             }
 
-            Map<Node, Node> map = new HashMap<>();
-            Node dummy = head;
-            while (head != null) {
-                map.put(head, new Node(head.val));
-                head = head.next;
+            node = head;
+            while(node != null) {
+                if(node.random != null) {
+                    node.next.random = node.random.next;
+                }
+                node = node.next.next;
             }
-            Node newHead = map.get(head);
-            for (Node curr : map.keySet()) {
-                Node newNode = map.get(curr);
-                if (curr == dummy) newHead = newNode;
-                newNode.next = map.getOrDefault(curr.next, null);
-                newNode.random = map.getOrDefault(curr.random, null);
+
+            node = head;
+            Node newHead = head.next;
+            Node copy = newHead;
+            while(copy.next != null) {
+                node.next = node.next.next;
+                node = node.next;
+
+                copy.next = copy.next.next;
+                copy = copy.next;
             }
+            node.next = node.next.next;
             return newHead;
         }
+         */
     }
 //leetcode submit region end(Prohibit modification and deletion)
 

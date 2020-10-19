@@ -1,4 +1,4 @@
-package com.study.interview.amazon.algorithm.dfs.articulationPoints;
+package com.study.interview.amazon.algorithm.dfs;
 
 /*
     There are n servers numbered from 0 to n-1 connected by undirected server-to-server connections forming a network

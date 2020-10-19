@@ -1,4 +1,4 @@
-package com.study.interview.amazon.algorithm.dfs.articulationPoints;
+package com.study.interview.amazon.algorithm.dfs;
 
 import org.junit.Before;
 import org.junit.Test;

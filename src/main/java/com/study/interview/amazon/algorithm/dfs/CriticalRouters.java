@@ -1,4 +1,4 @@
-package com.study.interview.amazon.algorithm.dfs.articulationPoints;
+package com.study.interview.amazon.algorithm.dfs;
 
 /*
     You are given an undirected connected graph. An articulation point (or cut vertex) is defined as a vertex which,

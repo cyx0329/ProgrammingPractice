@@ -89,19 +89,16 @@ public class ValidateBinarySearchTree {
     class Solution {
 
         public boolean isValidBST(TreeNode root) {
-            return helper(root, null, null);
+            return checkBST(root, null, null);
         }
 
-        public boolean helper(TreeNode node, Integer lower, Integer upper) {
-            if (node == null) return true;
+        private boolean checkBST(TreeNode node, Integer min, Integer max) {
+            if(node == null) return true;
 
-            int val = node.val;
-            if (lower != null && val <= lower) return false;
-            if (upper != null && val >= upper) return false;
+            if(min != null && node.val <= min) return false;
+            if(max != null && node.val >= max) return false;
 
-            if (! helper(node.right, val, upper)) return false;
-            if (! helper(node.left, lower, val)) return false;
-            return true;
+            return checkBST(node.left, min, node.val) && checkBST(node.right, node.val, max);
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

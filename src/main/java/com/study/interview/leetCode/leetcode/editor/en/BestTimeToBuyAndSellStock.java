@@ -39,16 +39,22 @@ public class BestTimeToBuyAndSellStock {
     class Solution {
         public int maxProfit(int[] prices) {
             if (prices == null || prices.length == 0) return 0;
-            int maxProfit = 0;
-            int minPrice = Integer.MAX_VALUE;
-            for (int price : prices) {
-                if (price < minPrice) {
-                    minPrice = price;
+
+            //in order to get max profit, i need to find the min price
+            //because i can not sell before buy, so basically the first element is set to min
+            //after that any element less than min, set to min
+            //if not less then min, update max profit
+            //initially set min to Integer.MAX
+            int min = prices[0];
+            int max_profit = 0;
+            for(int price : prices) {
+                if(price < min) {
+                    min = price;
                 } else {
-                    maxProfit = Math.max(maxProfit, price - minPrice);
+                    max_profit = Math.max(max_profit, price-min);
                 }
             }
-            return maxProfit;
+            return max_profit;
         }
     }
     //Time complexity : O(n). Only a single pass is needed.
